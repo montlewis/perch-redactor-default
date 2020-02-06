@@ -29,7 +29,7 @@ Default installation of redactor config and plugins
 
 
 
-You can add or remove additional plugins to the config file and redactor-plugins folder. The config file is set to read values from the `editor-config` textarea attribute. (`<perch:content id="desciption" type="textarea" label="Text" html editor="redactor" editor-config="full" >`) It expect a value of `full`, `simplified`, or `minimal`.
+You can add or remove additional plugins to the config file and redactor-plugins folder. The config file is set to read values from the `editor-config` textarea attribute. (`<perch:content id="desciption" type="textarea" label="Text" html editor="redactor" editor-config="full" >`) It expect a value of `full`, `simple`, or `minimal`.
 
 Note: The css file for the inlinestyle plugin is loaded through the `/perch/addons/plugins/ui/_config.inc` file. THere may be a way to do this through the editor config file.
 
