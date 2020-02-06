@@ -53,7 +53,7 @@ config.imageResizable = true;
 config.imagePosition = true;
 config.buttonsAdd = ['underline', 'line'];
 
-console.log(config);
+// console.log(config);
 
   if(profile == 'simple') {
     // hide some buttons
@@ -79,6 +79,9 @@ console.log(config);
   	});
     config.plugins = config.plugins.filter(function (item) {
     return item !== 'properties'
+  	});
+    config.plugins = config.plugins.filter(function (item) {
+    return item !== 'video'
   	});
   }
 
@@ -111,7 +114,7 @@ console.log(config);
     return item !== 'inlinestyle'
   	});
     config.plugins = config.plugins.filter(function (item) {
-    return item !== 'inlinestyles'
+    return item !== 'video'
   	});
   }
 
