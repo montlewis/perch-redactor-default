@@ -6,6 +6,7 @@ Default installation of redactor config and plugins
 - Download the latest version
 - Unzip the download
 - Place the `redactor-plugins` folder and the `config.js` file in `/perch/addons/plugins/editors/`
+- Add `rdefine('PERCH_CUSTOM_EDITOR_CONFIGS', true);` to your `/perch/config/config.php` file
 
 
 
