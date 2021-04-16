@@ -7,6 +7,7 @@ Default installation of redactor config and plugins
 - Unzip the download
 - Place the `redactor-plugins` folder and the `config.js` file in `/perch/addons/plugins/editors/`
 - Add `define('PERCH_CUSTOM_EDITOR_CONFIGS', true);` to your `/perch/config/config.php` file
+- Add calls to any css files used by the plugins to `/perch/addons/plugins/ui/_config.inc`
 
 
 
@@ -33,7 +34,7 @@ Default installation of redactor config and plugins
 
 You can add or remove additional plugins to the config file and redactor-plugins folder. The config file is set to read values from the `editor-config` textarea attribute. (`<perch:content id="desciption" type="textarea" label="Text" html editor="redactor" editor-config="full" >`) It expect a value of `full`, `simple`, or `minimal`.
 
-**Note:** The css file for the inlinestyle plugin is loaded through the `/perch/addons/plugins/ui/_config.inc` file. There may be a way to do this through the editor config file.
+**Note:** The css file for the inlinestyle and clips plugins are loaded through the `/perch/addons/plugins/ui/_config.inc` file. _There may be a way to do this through the editor config file, but I don't know how._
 
 So something like:
 
