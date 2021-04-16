@@ -1,6 +1,6 @@
 (function($R)
 {
-	console.log('counter!');
+	// console.log('counter!');
     $R.add('plugin', 'counter', {
         translations: {
     		en: {

@@ -1,0 +1,10 @@
+/* style your clips */
+.label-red {
+	display: inline-block;
+	background-color: #ec2d80;
+	color: #fff;
+	line-height: 1;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-weight: normal;
+}
